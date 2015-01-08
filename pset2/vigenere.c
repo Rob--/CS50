@@ -32,7 +32,7 @@ int main(int argc, string argv[]){
     //
     string kw = key;
     int kwL = strlen(kw);
-    int kwC = 0; // keyword count - e.g; bacon. In turn, if kwC[1] = b, kwC[2] = a, kwC[i] = j;
+    int kwC = 0; // keyword count - e.g; bacon. In turn, if kwC[0] = b, kwC[1] = a, kwC[i] = j;
     int n = strlen(str);
     for(int i = 0; i != n; i++){
         if(isalpha(str[i])){
